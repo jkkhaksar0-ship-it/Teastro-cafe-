@@ -1,0 +1,6 @@
+{
+  "name": "Demand List Software - Kitchen & Cafe Inventory",
+  "description": "Complete cafe and kitchen inventory demand management tool with automatic stock calculations, Excel export/import, WhatsApp supplier orders, and quick audit mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

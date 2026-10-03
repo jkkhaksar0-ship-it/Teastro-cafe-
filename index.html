@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demand List Software - Kitchen & Cafe Inventory</title>
+    <meta name="description" content="Complete cafe and kitchen inventory demand management tool with automatic stock calculations, Excel export/import, WhatsApp supplier orders, and quick audit mode." />
+    <meta property="og:title" content="Demand List Software - Kitchen & Cafe Inventory" />
+    <meta property="og:description" content="Complete cafe and kitchen inventory demand management tool with automatic stock calculations, Excel export/import, WhatsApp supplier orders, and quick audit mode." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 font-sans antialiased selection:bg-blue-100 selection:text-blue-900">
+    <div id="root">
+      <div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: system-ui, -apple-system, sans-serif; background: #f9fafb; color: #111827;">
+        <div style="text-align: center; max-width: 380px; padding: 32px 24px;">
+          <div style="width: 56px; height: 56px; margin: 0 auto 16px; background: #1F4E78; border-radius: 16px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(31, 78, 120, 0.25);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+              <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+              <path d="M9 14l2 2 4-4"></path>
+            </svg>
+          </div>
+          <h2 style="font-size: 18px; font-weight: 700; margin: 0 0 6px 0; color: #0f172a;">Demand List Software</h2>
+          <p style="font-size: 13px; color: #64748b; margin: 0 0 20px 0;">Loading kitchen & cafe inventory catalog...</p>
+          <div style="width: 140px; height: 4px; background: #e2e8f0; border-radius: 9999px; margin: 0 auto; overflow: hidden; position: relative;">
+            <div style="width: 50%; height: 100%; background: #1F4E78; border-radius: 9999px; animation: loaderMove 1.2s infinite ease-in-out;"></div>
+          </div>
+          <style>
+            @keyframes loaderMove {
+              0% { transform: translateX(-100%); }
+              50% { transform: translateX(100%); }
+              100% { transform: translateX(200%); }
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
